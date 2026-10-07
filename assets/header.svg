@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Hammad Khan — Full-Stack Engineer</title>
+<desc id="desc">Hammad Khan, a full-stack engineer based in Islamabad, Pakistan, building type-safe GraphQL APIs, Postgres schemas, React Native apps and cloud infrastructure.</desc>
+<defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#34D399"/>
+    <stop offset=".5" stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <linearGradient id="brandDiag" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#34D399"/>
+    <stop offset=".5" stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <clipPath id="frame"><rect width="1200" height="440" rx="28"/></clipPath>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#FFFFFF" stroke-opacity=".05"/></pattern>
+  <radialGradient id="gridFade" cx=".5" cy=".45" r=".75">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <mask id="gridMask"><rect width="1200" height="440" fill="url(#gridFade)"/></mask>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<style>
+  .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, Menlo, 'Liberation Mono', monospace; }
+  .twinkle { transform-box: fill-box; transform-origin: center; animation: twinkle 3.6s ease-in-out infinite both; }
+  @keyframes twinkle { 0%, 100% { opacity: .15; transform: scale(.6); } 50% { opacity: .85; transform: scale(1); } }
+  .fade { animation: fade .5s ease-out both; }
+  @keyframes fade { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+  .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+  @keyframes pulse { from { opacity: .7; transform: scale(1); } to { opacity: 0; transform: scale(3.2); } }
+  
+  .blob { animation: drift 16s ease-in-out infinite alternate; }
+  .b2 { animation-duration: 21s; animation-direction: alternate-reverse; }
+  .b3 { animation-duration: 25s; }
+  @keyframes drift { from { transform: translate(0, 0); } to { transform: translate(80px, 40px); } }
+  .role { opacity: 0; animation: role 12s ease-in-out infinite both; }
+  .r0 { opacity: 1; }
+  .r0 { animation-delay: 0s; }
+  .r1 { animation-delay: 3s; }
+  .r2 { animation-delay: 6s; }
+  .r3 { animation-delay: 9s; }
+  @keyframes role {
+    0% { opacity: 0; transform: translateY(14px); }
+    5%, 20% { opacity: 1; transform: translateY(0); }
+    25%, 100% { opacity: 0; transform: translateY(-14px); }
+  }
+  .blink { animation: blink 1.05s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @keyframes type0 { from { transform: translateX(0); } to { transform: translateX(62px); } }
+  @keyframes type2 { from { transform: translateX(0); } to { transform: translateX(122px); } }
+  @keyframes type5 { from { transform: translateX(0); } to { transform: translateX(182px); } }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+    .pulse { display: none; }
+    .role { opacity: 0; } .r0 { opacity: 1; } .cover { display: none; }
+  }
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="440" fill="#0B0F19"/>
+  <g filter="url(#glow)" opacity="0.35">
+    <circle class="blob" cx="140" cy="30" r="170" fill="#34D399"/>
+    <circle class="blob b2" cx="560" cy="480" r="180" fill="#22D3EE"/>
+    <circle class="blob b3" cx="1120" cy="60" r="200" fill="#A78BFA"/>
+  </g>
+  <rect width="1200" height="440" fill="url(#grid)" mask="url(#gridMask)"/>
+  
+  <g transform="translate(610 58) scale(1)"><path class="twinkle" style="animation-delay:0s" d="M0 -7C.8 -1.2 1.2 -.8 7 0C1.2 .8 .8 1.2 0 7C-.8 1.2 -1.2 .8 -7 0C-1.2 -.8 -.8 -1.2 0 -7Z" fill="#FFFFFF"/></g>
+  <g transform="translate(470 392) scale(0.7)"><path class="twinkle" style="animation-delay:1.2s" d="M0 -7C.8 -1.2 1.2 -.8 7 0C1.2 .8 .8 1.2 0 7C-.8 1.2 -1.2 .8 -7 0C-1.2 -.8 -.8 -1.2 0 -7Z" fill="#FFFFFF"/></g>
+  <g transform="translate(1168 404) scale(0.8)"><path class="twinkle" style="animation-delay:2.1s" d="M0 -7C.8 -1.2 1.2 -.8 7 0C1.2 .8 .8 1.2 0 7C-.8 1.2 -1.2 .8 -7 0C-1.2 -.8 -.8 -1.2 0 -7Z" fill="#FFFFFF"/></g>
+  <g transform="translate(36 404) scale(0.6)"><path class="twinkle" style="animation-delay:0.6s" d="M0 -7C.8 -1.2 1.2 -.8 7 0C1.2 .8 .8 1.2 0 7C-.8 1.2 -1.2 .8 -7 0C-1.2 -.8 -.8 -1.2 0 -7Z" fill="#FFFFFF"/></g>
+  <g transform="translate(1168 40) scale(0.55)"><path class="twinkle" style="animation-delay:1.7s" d="M0 -7C.8 -1.2 1.2 -.8 7 0C1.2 .8 .8 1.2 0 7C-.8 1.2 -1.2 .8 -7 0C-1.2 -.8 -.8 -1.2 0 -7Z" fill="#FFFFFF"/></g>
+  <g transform="translate(646 252) scale(0.5)"><path class="twinkle" style="animation-delay:2.6s" d="M0 -7C.8 -1.2 1.2 -.8 7 0C1.2 .8 .8 1.2 0 7C-.8 1.2 -1.2 .8 -7 0C-1.2 -.8 -.8 -1.2 0 -7Z" fill="#FFFFFF"/></g>
+
+  <!-- intro -->
+  <g>
+    <rect x="72" y="76" width="204" height="30" rx="15" fill="#FFFFFF" fill-opacity=".04" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <circle class="pulse" cx="90" cy="91" r="3.5" fill="#34D399"/>
+    <circle cx="90" cy="91" r="3.5" fill="#34D399"/>
+    <text x="104" y="95" class="mono" font-size="11" letter-spacing="1.5" fill="#34D399">ISLAMABAD, PAKISTAN</text>
+  </g>
+  <text x="68" y="188" class="sans" font-size="74" font-weight="700" letter-spacing="-1.5" fill="#F8FAFC">Hammad Khan</text>
+  <g>
+    <text x="72" y="244" class="sans role r0" font-size="30" font-weight="600" fill="url(#brand)">Full-Stack Engineer</text>
+    <text x="72" y="244" class="sans role r1" font-size="30" font-weight="600" fill="url(#brand)">NestJS &amp; GraphQL Developer</text>
+    <text x="72" y="244" class="sans role r2" font-size="30" font-weight="600" fill="url(#brand)">React Native Developer</text>
+    <text x="72" y="244" class="sans role r3" font-size="30" font-weight="600" fill="url(#brand)">Cloud &amp; DevOps Enthusiast</text>
+  </g>
+  <text x="72" y="296" class="sans" font-size="18" fill="#A5B4C8">I build products end to end — from type-safe</text>
+  <text x="72" y="324" class="sans" font-size="18" fill="#A5B4C8">GraphQL APIs and Postgres schemas to polished</text>
+  <text x="72" y="352" class="sans" font-size="18" fill="#A5B4C8">React Native apps and the cloud they run on.</text>
+
+  <!-- terminal -->
+  <rect x="700" y="102" width="418" height="288" rx="16" fill="#000000" opacity=".55" filter="url(#shadow)"/>
+  <rect x="690" y="76" width="438" height="288" rx="16" fill="#0D1320"/>
+  <rect x="690.5" y="76.5" width="437" height="287" rx="15.5" stroke="url(#brandDiag)" stroke-opacity=".45"/>
+  <path d="M690 118H1128" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <circle cx="712" cy="97" r="6" fill="#FF5F57"/>
+  <circle cx="732" cy="97" r="6" fill="#FEBC2E"/>
+  <circle cx="752" cy="97" r="6" fill="#28C840"/>
+  <text x="909" y="101" text-anchor="middle" class="mono" font-size="12" fill="#64748B">hammad@dev: ~</text>
+  <g>
+    <text x="714" y="146" class="mono" font-size="14"><tspan fill="#34D399">$</tspan><tspan fill="#F8FAFC"> whoami</tspan></text>
+    <rect class="cover" x="728.4" y="130" width="62" height="22" fill="#0D1320" style="animation: type0 0.4s steps(6) 0.7s both"/>
+    <text x="714" y="174" class="mono fade" font-size="14" style="animation-delay:1.5s"><tspan fill="#F8FAFC">Hammad&#160;Khan</tspan><tspan fill="#64748B">&#160;·&#160;</tspan><tspan fill="#A5B4C8">full-stack&#160;engineer</tspan></text>
+    <text x="714" y="202" class="mono" font-size="14"><tspan fill="#34D399">$</tspan><tspan fill="#F8FAFC"> cat stack.txt</tspan></text>
+    <rect class="cover" x="728.4" y="186" width="122" height="22" fill="#0D1320" style="animation: type2 0.8s steps(13) 2.1s both"/>
+    <text x="714" y="230" class="mono fade" font-size="14" style="animation-delay:3.2s"><tspan fill="#A5F3FC">typescript&#160;&#160;nestjs&#160;&#160;graphql&#160;&#160;postgres</tspan></text>
+    <text x="714" y="258" class="mono fade" font-size="14" style="animation-delay:3.4s"><tspan fill="#A5F3FC">react-native&#160;&#160;expo&#160;&#160;redis&#160;&#160;terraform</tspan></text>
+    <text x="714" y="286" class="mono" font-size="14"><tspan fill="#34D399">$</tspan><tspan fill="#F8FAFC"> git log --oneline -1</tspan></text>
+    <rect class="cover" x="728.4" y="270" width="182" height="22" fill="#0D1320" style="animation: type5 1.2s steps(20) 4s both"/>
+    <text x="714" y="314" class="mono fade" font-size="14" style="animation-delay:5.6s"><tspan fill="#FBBF24">a41c9e2&#160;</tspan><tspan fill="#A78BFA">feat(api):&#160;</tspan><tspan fill="#CBD5E1">type-safe&#160;end&#160;to&#160;end</tspan></text>
+    <g class="fade" style="animation-delay:6.2s">
+      <text x="714" y="342" class="mono" font-size="14" fill="#34D399">$</text>
+      <rect class="blink" x="729" y="329" width="8.5" height="17" rx="1.5" fill="#34D399"/>
+    </g>
+  </g>
+  <rect width="1200" height="1.5" fill="url(#brand)" opacity=".75"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="439" rx="27.5" stroke="#FFFFFF" stroke-opacity=".09"/>
+</svg>

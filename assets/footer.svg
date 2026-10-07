@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Thanks for stopping by</title>
+<desc id="desc">Thanks for visiting the profile of Hammad Khan.</desc>
+<defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#34D399"/>
+    <stop offset=".5" stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <linearGradient id="brandDiag" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#34D399"/>
+    <stop offset=".5" stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <clipPath id="frame"><rect width="1200" height="220" rx="28"/></clipPath>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#FFFFFF" stroke-opacity=".05"/></pattern>
+  <radialGradient id="gridFade" cx=".5" cy=".45" r=".75">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <mask id="gridMask"><rect width="1200" height="220" fill="url(#gridFade)"/></mask>
+  
+</defs>
+<style>
+  .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, Menlo, 'Liberation Mono', monospace; }
+  .twinkle { transform-box: fill-box; transform-origin: center; animation: twinkle 3.6s ease-in-out infinite both; }
+  @keyframes twinkle { 0%, 100% { opacity: .15; transform: scale(.6); } 50% { opacity: .85; transform: scale(1); } }
+  .fade { animation: fade .5s ease-out both; }
+  @keyframes fade { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+  .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+  @keyframes pulse { from { opacity: .7; transform: scale(1); } to { opacity: 0; transform: scale(3.2); } }
+  
+  .bar { transform-box: fill-box; transform-origin: center; animation: breathe 3.2s ease-in-out infinite alternate; }
+  @keyframes breathe { from { transform: scaleX(.35); opacity: .6; } to { transform: scaleX(1); opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+    .pulse { display: none; }
+    
+  }
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="220" fill="#0B0F19"/>
+  <g filter="url(#glow)" opacity="0.3">
+    <circle cx="140" cy="230" r="170" fill="#34D399"/>
+    <circle cx="1080" cy="-10" r="180" fill="#A78BFA"/>
+  </g>
+  <rect width="1200" height="220" fill="url(#grid)" mask="url(#gridMask)"/>
+  
+  <g transform="translate(300 70) scale(0.8)"><path class="twinkle" style="animation-delay:0.3s" d="M0 -7C.8 -1.2 1.2 -.8 7 0C1.2 .8 .8 1.2 0 7C-.8 1.2 -1.2 .8 -7 0C-1.2 -.8 -.8 -1.2 0 -7Z" fill="#FFFFFF"/></g>
+  <g transform="translate(905 150) scale(0.7)"><path class="twinkle" style="animation-delay:1.4s" d="M0 -7C.8 -1.2 1.2 -.8 7 0C1.2 .8 .8 1.2 0 7C-.8 1.2 -1.2 .8 -7 0C-1.2 -.8 -.8 -1.2 0 -7Z" fill="#FFFFFF"/></g>
+  <g transform="translate(180 160) scale(0.5)"><path class="twinkle" style="animation-delay:2.2s" d="M0 -7C.8 -1.2 1.2 -.8 7 0C1.2 .8 .8 1.2 0 7C-.8 1.2 -1.2 .8 -7 0C-1.2 -.8 -.8 -1.2 0 -7Z" fill="#FFFFFF"/></g>
+  <g transform="translate(1030 64) scale(0.55)"><path class="twinkle" style="animation-delay:0.9s" d="M0 -7C.8 -1.2 1.2 -.8 7 0C1.2 .8 .8 1.2 0 7C-.8 1.2 -1.2 .8 -7 0C-1.2 -.8 -.8 -1.2 0 -7Z" fill="#FFFFFF"/></g>
+  <text x="600" y="102" text-anchor="middle" class="sans" font-size="36" font-weight="700" letter-spacing="-.5" fill="#F8FAFC">Thanks for stopping by</text>
+  <text x="600" y="140" text-anchor="middle" class="sans" font-size="18" fill="#A5B4C8">Always happy to talk NestJS, GraphQL, React Native and the cloud.</text>
+  <rect class="bar" x="500" y="170" width="200" height="3" rx="1.5" fill="url(#brand)"/>
+  <rect width="1200" height="1.5" fill="url(#brand)" opacity=".75"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="219" rx="27.5" stroke="#FFFFFF" stroke-opacity=".09"/>
+</svg>
